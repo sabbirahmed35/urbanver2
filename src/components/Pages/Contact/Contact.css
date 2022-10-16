@@ -1,0 +1,160 @@
+.main-contact-container {
+	min-height: 90vh;
+}
+.contact-img-container {
+	height: 250px;
+	
+	background-color: #222222;
+	display: flex; 
+	align-items: center;
+	justify-content: space-between;
+}
+.contact-title{
+	color: white;
+	/* align-items: center; */
+	margin-left: 8%;
+	font-size: 2rem; 
+	letter-spacing: 2px;
+	margin-top: 4rem;
+}
+.contact-title-span-container{
+	color: white;
+	margin-right: 8%;
+	margin-top: 4rem;
+}
+@media screen and (max-width:768px) {
+	.contact-title-span-container{
+		display: none;
+	}
+}
+.contact-title-span-container Link{
+	text-decoration: none;
+}
+.contact-title-span-home{
+	text-decoration: none;
+	color: white;
+	padding: 0 0.3rem;
+	/* font-size: 0.8rem; */
+	color: #0fb41d;
+	transition: all ease 0.3s;
+} 
+.contact-title-span-home:hover{
+	color: #61df6c;
+}
+.contact-title-span-contact{
+	text-decoration: none;
+	color: white;
+	padding: 0 0.3rem;
+}
+.contact-title-span-contact:hover{
+	color: rgba(255, 255, 255, 0.8);
+}
+.contact-wrapper {
+	width: 85%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 2.5rem;
+}
+@media screen and (max-width:768px) {
+	.contact-wrapper {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		grid-row-gap: 2rem;
+	}
+}
+
+.from-container {
+	width: 60%;
+}
+
+@media screen and (max-width:768px) {
+	.from-container {
+		width: 100%;
+	}
+}
+
+.contact-us-container {
+	width: 37%;
+}
+
+@media screen and (max-width:768px) {
+	.contact-us-container {
+		width: 100%;
+	}
+}
+
+.form-title .contact-us-title {
+	
+	padding-bottom: 1rem;
+}
+
+.input-field {
+	margin-top: 1rem;
+	display: block;
+	width: 100%;
+	padding: 0.4rem 1rem;
+	border: 1px solid gray;
+	font-size: 0.8rem;
+}
+
+.textarea {
+	width: 100%;
+	border: 1px solid gray;
+	font-size: 0.8rem;
+	display: block;
+	margin-top: 1rem;
+}
+
+.input-btn {
+	/* width: 25%; */
+	letter-spacing: 0.08rem;
+	font-size: 1.2rem;
+	/* background-color: #FD6925; */
+	background-color: #08410d;
+	color: white;
+	border: none;
+	margin-top: 1rem;
+	padding: 0.3rem 1rem;
+	border-radius: 0.4rem;
+	transition: all ease 0.4s;
+}
+
+.input-btn:hover {
+	transform: scale(0.9);
+	background-color: #022204;
+}
+
+.single-contact-info {
+	display: flex;
+	border-bottom: 1px solid black;
+	align-items: center;
+	padding: 0.4rem 0;
+}
+
+.contact-info-title {
+	color: #011a03;
+	width: 80px;
+	padding: 0;
+	font-size: 0.8rem;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+.contact-us-details {
+	font-size: 0.8rem;
+	opacity: 0.8;
+	margin-bottom: 0;
+}
+
+.form-error {
+	color: red;
+	font-size: 0.6rem;
+	margin-top: 2px;
+}
+.main-info{
+	
+}
+.contact-info-title-address{
+	align-self: flex-start;
+}
